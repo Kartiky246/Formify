@@ -1,6 +1,6 @@
-import userRepository from "../shared/user.repository.js";
-import AppError from "../../../core/utils/errors/app.error.js"
-import AuthService from "../../../core/services/auth.service.js"
+import userRepository from "../user/user.repository.js";
+import AppError from "../../core/utils/errors/app.error.js"
+import AuthService from "../../core/services/auth.service.js"
 
 
 class UserService{
