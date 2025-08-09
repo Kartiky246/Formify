@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import AppError from '../utils/errors/app.error.js';
-import userRepository from "../../module/user/shared/user.repository.js"
+import userRepository from "../../module/user/user.repository.js"
 
 const verifyUser = async(req, res ,next) =>{
     try {
